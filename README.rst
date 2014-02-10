@@ -11,6 +11,8 @@ Blog site
 =========
 Read more about how we used scrapy to manage data from a specific website.
 
+* http://adduscrapy.wordpress.com/
+
 
 
 Documentation
