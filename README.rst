@@ -7,6 +7,12 @@ you create and manage Scrapy spiders via the Django admin interface. It was orig
 webtv program site http://fernsehsuche.de.
 
 
+Blog site
+=========
+Read more about how we used scrapy to manage data from a specific website.
+
+
+
 Documentation
 =============
 Read more about DDS in the ReadTheDocs documentation:
@@ -23,3 +29,6 @@ There is a mailing list on Google Groups, feel free to ask questions or make sug
 Infos about new releases and updates on Twitter:
 
 * https://twitter.com/#!/dynamicscraper 
+
+
+
