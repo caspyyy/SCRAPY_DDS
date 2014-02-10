@@ -1,0 +1,9 @@
+{% if queryset2 %}
+	<table border="1">
+	{% for data2 in queryset2 %}
+	<tr><td>{{ data2.name }}</td> <td>{{ data2.value }}</td> <td>{{ data2.status }}</td> <td>{{ data2.date }}</td></tr>
+	{% endfor %}
+	</table>
+{% else %}
+	<p> Index Summary.</p>
+{% endif %}
