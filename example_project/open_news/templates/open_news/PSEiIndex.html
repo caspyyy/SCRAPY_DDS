@@ -1,0 +1,9 @@
+{% if queryset2 %}
+	<table border="1">
+	{% for data in queryset2 %}
+	<tr><td><a href="{% url 'open_news:detail' data.id %}">{{ data.url }}</a></td><td>{{ data.index }}</td> <td>{{ data.value }}</td> <td>{{ data.change }}</td> <td>{{ data.percentage }}</td><td>{{ data.date }}</td></tr>
+	{% endfor %}
+	</table>
+{% else %}
+	<p> No data Available.</p>
+{% endif %}

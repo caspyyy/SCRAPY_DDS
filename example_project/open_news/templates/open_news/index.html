@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+{% if queryset %}
+	<table border="1">
+	{% for data in queryset %}
+	<tr><td><a href="{% url 'open_news:detail' data.id %}">{{ data.url }}</a></td> <td>{{ data.index }}</td> <td>{{ data.value }}</td> <td>{{ data.change }}</td> <td>{{ data.percentage }}</td></tr>
+	{% endfor %}
+	</table>
+{% else %}
+	<p> No data Available.</p>
+{% endif %}
+
+<form action="{% url 'open_news:run_script' %}" method="POST">
+	{% csrf_token %}
+	<input type="submit" value="Scrape"/>
+</form>
+
+<form action="{% url 'open_news:amchart' %}" method="POST">
+	{% csrf_token %}
+	<input type="submit" value="Stock Chart"/>
+</form>
+ 
+</body>
+</html>
+
+
+
