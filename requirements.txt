@@ -4,3 +4,12 @@ django-celery>=3.0.0
 PIL
 South
 
+Scrapy Dependencies:
+pywin32 – python for “Windows” extension
+Twisted – a networking engine written in Python, supporting numerous protocols.
+Zope Interface – a package that provides an implementation of “object interfaces” for Python
+lmxl – a Pythonic, mature binding for the libxml2 and libxslt libraries
+pyOpenSSL – SSL Context objects, SSL Connection objects, using Python sockets as transport layer
+Django Celery – a task queue with focus on real-time processing, while also supporting task scheduling.
+South v 0.7.3 – a tool used to provide database-agnostic migrations for Django applications.
+am Chart –  API for making interactive charts using JavaScript.
